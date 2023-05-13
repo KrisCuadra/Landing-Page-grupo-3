@@ -1,0 +1,146 @@
+
+header{
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	z-index: 2000;
+	width: 100%;
+}
+
+.nav-link{
+	color: #FFFFFF!important;
+	
+}
+.nav-link:hover{
+	color: #0ff3fd!important;	
+}
+
+
+#hero{
+	background-image: url("../img/animador.jpeg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	padding: 15% 0 10%;
+	text-align: center;
+	position: relative;
+}
+
+#hero h1{
+	color: #fff;
+	font-size: 65px;
+	font-weight: 700;
+	padding-top: 40px;
+}
+#hero h2{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 500; 
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+
+#hero::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.60);
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+#hero .container{
+	z-index: 1000;
+	position: absolute;
+	max-width: 100%;
+}
+
+#informative-content{
+	background-color: #6c466a;
+	padding: 15px 0px;
+}
+#informative-content img{
+	padding: 4% 0;
+	
+}
+
+#informative-content p{
+	padding: 15px;
+	font-size: 16px;
+	text-align: justify;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+h2{
+	color:#FFFFFF;
+	font-family: 'Montserrat';
+	font-weight: 800;
+	font-size: 51px;
+}
+
+p{
+	color: #FFFFFF;
+	font-weight: 300;
+	font-size: 31px;
+}
+
+#Call{
+	background-image: url("../img/imagen-bg-2.png");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 15% 0 10%;
+	text-align: center;
+	position: relative;	
+	
+}
+
+
+#cat{
+	padding: 5 0%;
+	box-sizing: content-box;
+}
+
+
+
+
+#speakers{
+	padding: 20px 0 20px;
+}
+
+#speakers h4{
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#speakers h5{
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+#speakers p{
+	font-size: 28px;
+	color: darkgrey;
+}
+
+#speakers .column {
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#speakers .column img {
+  border-radius: 100%;
+
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
